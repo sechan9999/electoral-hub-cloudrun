@@ -1,0 +1,7 @@
+{
+    "runId": "pr-2026-04-22-01",
+    "dataHash": "4d518278",
+    "completedAt": "2026-04-22T00:24:00.000Z",
+    "dedupDroppedRows": 548,
+    "sourceDesc": "K18to21charts.xlsx (18Data–21Data) backfill"
+}

@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+original_data/*.xlsx
+corrected_data/*.xlsx
+dashboard
+visualizations
+bq_backfill

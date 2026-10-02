@@ -1,0 +1,19 @@
+{
+  "name": "electoral-hub-cloudrun",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloud Run + BigQuery migration kit for the Electoral Insights Hub (K18to21Election2)",
+  "scripts": {
+    "backfill": "python3 scripts/backfill_bigquery.py --summaries fixtures --out bq_backfill",
+    "check:parity": "tsx scripts/check-parity.ts bq_backfill fixtures",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

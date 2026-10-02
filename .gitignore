@@ -1,0 +1,3 @@
+/node_modules
+/bq_backfill
+.env*
